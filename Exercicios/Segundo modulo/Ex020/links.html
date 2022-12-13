@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = peseudo-element
+            > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: violet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: rgb(235, 235, 94);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(9, 241, 164);
+        }
+
+        a::after{
+            content: "[link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial{
+            background-color:rgb(85, 8, 156);
+;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://stackoverflow.com/" target="_blank" class="especial">link 1</a></li>
+        <li><a href="https://twitter.com/dii_lua/status/1562631395314642947" target="_blank" class="especial">link 2</a></li>
+        <li><a href="https://br.000webhost.com/" target="_blank" class="especial">link 3</a></li>
+    </ul>
+</body>
+</html>

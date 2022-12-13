@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+    /*
+        HTML = id / CSS= #
+        HTML = class/ CSS = .
+    */
+    body{
+        background-color: #f812fc7a;
+    }
+
+    h1{
+    
+    color: #ff17e0;
+    }
+
+    h1#principal{
+        text-align: center;
+        background-color:#AD11F2 ;
+        color: white;
+    }
+
+    h2{
+        color: #CB12FC;
+    }
+
+    .basico{
+        color: #0ece07;
+        font-weight: bold;
+    }
+
+    .intermediario{
+        color: #fffb05;
+    }
+
+    .avançado{
+        color: #ff0800;
+    }
+
+    .destaque{
+        background-color: #b005ff65;
+    }
